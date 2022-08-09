@@ -33,7 +33,7 @@ const App = () => {
         break;
 
         default:
-          0
+          throw new Error();
     }
     
   }
