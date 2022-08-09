@@ -32,6 +32,8 @@ const App = () => {
         setBad(prev => prev + 1);
         break;
 
+        default:
+          0
     }
     
   }
